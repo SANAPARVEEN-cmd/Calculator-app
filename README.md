@@ -6,7 +6,6 @@ A simple, responsive calculator built with HTML, CSS, and JavaScript.
 2)- Clear (`AC`) and delete (`DEL`) functions
 3)-Responsive design for mobile and desktop
 ## Demo
-![Calculator Screenshot](screenshot.png) <!-- Add a screenshot if available -->
 ## Getting Started
 1. **Clone the repository:**
    ```
