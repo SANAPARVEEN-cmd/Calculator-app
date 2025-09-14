@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "TASA Explorer", sans-serif;
+}
+body{
+    background-color:#2b2d42 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%
+    
+}
+.calculator{
+border:1px solid #8d99ae;
+padding:20px;
+border-radius: 16px;
+background: transparent;
+box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+}
+input{
+width:90%;
+border:none;
+padding:24px 24px 24px ;
+margin: 10px;
+background: transparent;
+color:#ffffff;
+box-shadow: 0px 13px 15px rgba(84,84,84,0.1);
+font-size: 40px;
+text-align: right;
+cursor:pointer;
+display:flex;
+align-items: center;
+}
+input::placeholder{
+    color:#ffffff;
+}
+button{
+    border:none;
+    height:50px;
+    width:50px;
+    margin:10px;
+    margin-left: 30px;
+    background: none;
+    color:#ffffff;
+    border-radius: 50%;
+    box-shadow:  -8px -8px 15px rgba(255,255,255,0.1);
+    border:1px solid #8d99ae;
+    cursor:pointer;
+}
+button:hover{
+    color:#ffffff;
+    opacity: 0.45;
+    transform: scale(1.12);
+}
+
+
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.equal-btn{
+    background-color:#fb7c14;
+}
+.operator{
+    color:#54A33C;
+}
+@media only screen and(max-width:405){
+    .calculator{
+        width:70%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .calculator {
+        width: 95%;
+        padding: 10px;
+    }
+    input {
+        font-size: 24px;
+        padding: 16px 8px;
+        margin: 6px;
+    }
+    button {
+        height: 40px;
+        width: 40px;
+        margin: 6px;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+}
